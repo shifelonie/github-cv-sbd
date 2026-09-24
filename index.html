@@ -1,0 +1,167 @@
+<!doctype html>
+<!--
+THESIS: A portfolio that reads like a clear working record, not a generic developer landing page.
+OWN-WORLD: Warm paper, ink-navy typography, electric-blue rules, and precise editorial modules.
+STORY: Recruiters see Fadhil's role, then his proof in experience and skills, before education and contact.
+FIRST VIEWPORT: A split hero puts the name and two actions beside a compact "working record" index.
+FORM: Experience-led editorial index; it refuses the usual stats-heavy hero and keeps claims grounded.
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio of Fadhil Iman Pratomo, a junior full stack web developer and UI/UX designer in Tangerang Selatan, Indonesia." />
+    <meta name="theme-color" content="#f4f1eb" />
+    <title>Fadhil Iman Pratomo | Full Stack Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="wordmark" href="#top" aria-label="Fadhil Iman Pratomo home">FIP<span>.</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="menu-label">Menu</span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#resume">Resume</a>
+          <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section id="top" class="hero container" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="location"><span class="pulse" aria-hidden="true"></span> Tangerang Selatan · Indonesia</p>
+          <h1 id="hero-title">Building useful things for the <em>web.</em></h1>
+          <p class="hero-intro">I’m Fadhil, a junior full stack web developer and UI/UX designer. I help people and companies build robust, scalable, meaningful applications and websites.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#experience">View my experience <span aria-hidden="true">↓</span></a>
+            <a class="button button-text" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <aside class="hero-index" aria-label="Portfolio overview">
+          <div class="index-top"><span>Portfolio / 2025–26</span><span>01–06</span></div>
+          <div class="index-rule"></div>
+          <p class="index-title">A working record</p>
+          <p class="index-note">Selected experience, skills, and studies, laid out for a quick, honest read.</p>
+          <dl class="index-list">
+            <div><dt>01</dt><dd>Experience</dd></div>
+            <div><dt>02</dt><dd>Technical skills</dd></div>
+            <div><dt>03</dt><dd>Education</dd></div>
+          </dl>
+          <span class="index-mark" aria-hidden="true">✳</span>
+        </aside>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="container section-grid">
+          <div class="section-label"><span>01</span><span>About</span></div>
+          <div class="about-content">
+            <h2>Thoughtful interfaces.<br /><em>Solid foundations.</em></h2>
+            <p class="large-copy">With three years of experience, I’m interested in the space where a well-built system meets a clear, human experience.</p>
+            <p>From managing database tables to shaping UI in Figma, I enjoy understanding how the pieces connect. I’m currently studying Computer Science at Syarif Hidayatullah State Islamic University of Jakarta.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience-section">
+        <div class="container">
+          <div class="section-heading">
+            <div class="section-label"><span>02</span><span>Experience</span></div>
+            <p>Hands-on work in professional and freelance teams.</p>
+          </div>
+          <div class="experience-list">
+            <article class="experience-item">
+              <div class="experience-period">Aug – Nov 2024</div>
+              <div class="experience-main"><h3>Back-end Developer Intern</h3><p class="company">PT Satrio Gemilang Perkasa</p><p>Worked in a professional team, managed database tables, and helped build, fix, and maintain an application and website.</p></div>
+              <div class="experience-type">Internship</div>
+            </article>
+            <article class="experience-item">
+              <div class="experience-period">Feb – May 2025</div>
+              <div class="experience-main"><h3>Full-stack Developer</h3><p class="company">TPA Al-Ikhlas <span>· Freelance</span></p><p>Collaborated with a friend to build a data-management website for school data.</p></div>
+              <div class="experience-type">Freelance</div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills-section">
+        <div class="container section-grid">
+          <div class="section-label"><span>03</span><span>Skills</span></div>
+          <div class="skills-content">
+            <h2>The tools I use to<br /><em>make it work.</em></h2>
+            <div class="skill-groups">
+              <div class="skill-group"><h3>Front-end</h3><p>ReactJS <span>·</span> Tailwind</p></div>
+              <div class="skill-group"><h3>Back-end</h3><p>ExpressJS</p></div>
+              <div class="skill-group"><h3>Databases</h3><p>MySQL <span>·</span> PostgreSQL</p></div>
+              <div class="skill-group"><h3>UI / UX</h3><p>Figma</p></div>
+              <div class="skill-group"><h3>Language</h3><p>English <span class="skill-note">Work proficiency</span></p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section education-section">
+        <div class="container">
+          <div class="section-heading"><div class="section-label"><span>04</span><span>Education</span></div><p>The ongoing work of getting better.</p></div>
+          <div class="education-list">
+            <article class="education-item"><div class="education-year">2025–present</div><div><h3>Syarif Hidayatullah State Islamic University of Jakarta</h3><p>Computer Science (Informatics)</p></div></article>
+            <article class="education-item"><div class="education-year">2022–2025</div><div><h3>Bina Informatika Vocational High School</h3><p>Software Engineering</p></div></article>
+            <article class="education-item"><div class="education-year">2019–2022</div><div><h3>Al-Amanah Al-Bantani Middle School</h3></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section">
+        <div class="container">
+          <div class="section-heading"><div class="section-label"><span>05</span><span>Projects</span></div><p>A space reserved for work worth sharing.</p></div>
+          <div class="project-placeholder-grid">
+            <article class="project-placeholder"><span class="project-number">Project 01</span><div><h3>Project details coming soon.</h3><p>Project name, description, technologies, outcome, and URL will be added when available.</p></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+            <article class="project-placeholder"><span class="project-number">Project 02</span><div><h3>Project details coming soon.</h3><p>Project name, description, technologies, outcome, and URL will be added when available.</p></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="section resume-section">
+        <div class="container">
+          <div class="section-heading">
+            <div class="section-label"><span>06</span><span>Resume</span></div>
+            <p>The complete record, in one document.</p>
+          </div>
+          <div class="resume-layout">
+            <div class="resume-copy">
+              <h2>A closer look at<br /><em>the work.</em></h2>
+              <p>Read the full CV for a complete view of my experience, education, and skills.</p>
+              <div class="resume-actions">
+                <a class="button button-primary" href="public/fadhil-iman-pratomo-cv.pdf" download="Fadhil-Iman-Pratomo-CV.pdf">Download CV <span aria-hidden="true">↓</span></a>
+                <a class="button button-text" href="public/fadhil-iman-pratomo-cv.pdf" target="_blank" rel="noreferrer">Open full CV <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+            <div class="resume-preview">
+              <iframe src="public/fadhil-iman-pratomo-cv.pdf#view=FitH" title="Preview of Fadhil Iman Pratomo's CV"></iframe>
+              <p class="resume-fallback">PDF preview unavailable? <a href="public/fadhil-iman-pratomo-cv.pdf" target="_blank" rel="noreferrer">Open the full CV</a>.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="container contact-inner">
+          <div class="section-label"><span>07</span><span>Contact</span></div>
+          <div><h2>Let’s make something<br /><em>meaningful.</em></h2><p>I’m open to conversations about full-stack and web-development internship opportunities.</p><div class="contact-links"><a class="contact-email" href="mailto:fadhil.pratomo1234@gmail.com">fadhil.pratomo1234@gmail.com <span aria-hidden="true">↗</span></a><a class="contact-linkedin" href="https://www.linkedin.com/in/fadhil-iman-pratomo/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div></div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="container footer-inner"><span>© 2025 Fadhil Iman Pratomo</span><span>Designed & built with care <span class="footer-star" aria-hidden="true">✳</span></span><a href="#top">Back to top ↑</a></div></footer>
+  </body>
+</html>
