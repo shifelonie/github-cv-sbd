@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#171817" />
+    <meta
+      name="description"
+      content="Portfolio of Fadhil Iman Pratomo, junior full-stack web developer and UI/UX designer."
+    />
+    <title>Fadhil Iman Pratomo | Web Dev & UI/UX Designer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--
+      THESIS: A portfolio that behaves like a creator's desk instrument, not a résumé template.
+      OWN-WORLD: Gunmetal, bone, putty, safety-orange, and amber status lights; compact mono labels; tactile keycaps.
+      STORY: Visitors see the engineering + design blend first, then inspect experience, skills, and an easy contact route.
+      FIRST VIEWPORT: A large nameplate sits beside an amber “live” console with the primary contact and CV actions in the control row.
+      FORM: Grounded direction 7; sparse workbench dossier staged as a creator-hardware desk with a single authored reveal in the skills console.
+    -->
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Fadhil Iman Pratomo home">
+        <span class="brand-mark">FI</span>
+        <span class="brand-name">Fadhil Iman<br />Pratomo</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#experience">Experience</a>
+        <a href="#skills">Stack</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <span class="availability"><i></i> Open to opportunities</span>
+    </header>
+
+    <main id="top">
+      <section class="hero shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="micro-label">Web dev <span>/</span> UI/UX design</p>
+          <h1 id="hero-title">Building useful<br /><em>digital tools.</em></h1>
+          <p class="hero-intro">
+            I’m Fadhil, a junior full-stack web developer and UI/UX designer focused on
+            turning complex needs into robust, meaningful experiences.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Start a conversation <span>↗</span></a>
+            <a class="button button-secondary" href="assets/Fadhils-CV.pdf" download>Download CV <span>↓</span></a>
+          </div>
+          <div class="hero-meta">
+            <span><b>Based in</b> Tangerang Selatan, ID</span>
+            <span><b>Currently</b> CS student @ UIN Jakarta</span>
+          </div>
+        </div>
+
+        <div class="console console-hero" aria-label="Profile status panel">
+          <div class="console-top">
+            <span>PROFILE_STATUS</span>
+            <span class="console-light"><i></i> LIVE</span>
+          </div>
+          <div class="screen">
+            <div class="screen-grid"></div>
+            <span class="screen-caption">AVAILABLE FOR<br />THE NEXT BUILD</span>
+            <span class="screen-code">FIP_2025<span class="blink">_</span></span>
+          </div>
+          <div class="console-stats">
+            <div><strong>03</strong><span>years learning<br />& shipping</span></div>
+            <div><strong>02</strong><span>workplace<br />experiences</span></div>
+            <div><strong>07</strong><span>core tools in<br />the stack</span></div>
+          </div>
+          <div class="console-knob" aria-hidden="true"><span></span></div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Core capabilities">
+        <div class="ticker-track">
+          <span>FRONT-END DEVELOPMENT</span><b>✦</b><span>BACK-END SYSTEMS</span><b>✦</b>
+          <span>DATABASE DESIGN</span><b>✦</b><span>UI/UX THINKING</span><b>✦</b>
+          <span>FRONT-END DEVELOPMENT</span><b>✦</b><span>BACK-END SYSTEMS</span><b>✦</b>
+        </div>
+      </section>
+
+      <section class="section shell" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading">
+          <p class="micro-label">Selected timeline</p>
+          <h2 id="experience-title">Experience that<br /><em>keeps me curious.</em></h2>
+          <p class="section-note">A short track record, with a lot of room to grow.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker">02</div>
+            <div class="timeline-date">FEB — MAY 2025</div>
+            <div class="timeline-content">
+              <div class="timeline-title-row">
+                <h3>Full-stack Developer</h3>
+                <span class="tag">FREELANCE</span>
+              </div>
+              <p class="timeline-company">TPA Al-Ikhlas</p>
+              <p>
+                Worked with a friend to build a data-management website that helps the client
+                maintain and organize school data.
+              </p>
+              <div class="timeline-footer"><span>TEAM BUILD</span><span>DATA MANAGEMENT</span></div>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker">01</div>
+            <div class="timeline-date">AUG — NOV 2024</div>
+            <div class="timeline-content">
+              <div class="timeline-title-row">
+                <h3>Back-end Developer</h3>
+                <span class="tag">INTERN</span>
+              </div>
+              <p class="timeline-company">PT Satrio Gemilang Perkasa</p>
+              <p>
+                Joined a real professional team for the first time, managing database tables,
+                and helping build, fix, and maintain an application and website system.
+              </p>
+              <div class="timeline-footer"><span>DATABASES</span><span>SYSTEM MAINTENANCE</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="skills-section" id="skills" aria-labelledby="skills-title">
+        <div class="shell skills-layout">
+          <div class="skills-intro">
+            <p class="micro-label">The working stack</p>
+            <h2 id="skills-title">Tools for<br /><em>real work.</em></h2>
+            <p>
+              The stack is practical by design: build the interface, connect the system, shape
+              the data, then make the experience feel clear.
+            </p>
+            <div class="skill-filter" role="group" aria-label="Filter skills">
+              <button class="filter-button is-active" data-filter="all">All tools</button>
+              <button class="filter-button" data-filter="build">Build</button>
+              <button class="filter-button" data-filter="design">Design</button>
+            </div>
+          </div>
+          <div class="key-grid" aria-label="Skills list">
+            <button class="key" data-category="build"><span>01</span><strong>ReactJS</strong><small>FRONT-END</small></button>
+            <button class="key" data-category="build"><span>02</span><strong>Tailwind</strong><small>FRONT-END</small></button>
+            <button class="key" data-category="build"><span>03</span><strong>ExpressJS</strong><small>BACK-END</small></button>
+            <button class="key key-accent" data-category="build"><span>04</span><strong>MySQL</strong><small>DATABASE</small></button>
+            <button class="key" data-category="build"><span>05</span><strong>PostgreSQL</strong><small>DATABASE</small></button>
+            <button class="key key-tall" data-category="design"><span>06</span><strong>Figma</strong><small>UI/UX DESIGN</small></button>
+            <button class="key key-wide" data-category="design"><span>07</span><strong>English</strong><small>WORK PROFICIENCY</small></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section education-section shell" aria-labelledby="education-title">
+        <div class="education-copy">
+          <p class="micro-label">Learning in public</p>
+          <h2 id="education-title">Still studying.<br /><em>Always building.</em></h2>
+        </div>
+        <div class="education-list">
+          <article><span>2025 — NOW</span><h3>Syarif Hidayatullah State Islamic University of Jakarta</h3><p>Computer Science (Informatics)</p></article>
+          <article><span>2022 — 2025</span><h3>Bina Informatika Vocational Highschool</h3><p>Software Engineering</p></article>
+          <article><span>2019 — 2022</span><h3>Al-Amanah Al-Bantani</h3><p>Middle School</p></article>
+        </div>
+      </section>
+
+      <section class="contact-section shell" id="contact" aria-labelledby="contact-title">
+        <div class="contact-console">
+          <div class="console-top"><span>CONTACT_CHANNEL</span><span>CH_01</span></div>
+          <div class="contact-main">
+            <p class="micro-label">Have a project in mind?</p>
+            <h2 id="contact-title">Let’s make<br /><em>something useful.</em></h2>
+            <p>Open to conversations about web development, product interfaces, and thoughtful collaborations.</p>
+            <div class="contact-actions">
+              <a class="button button-primary" href="mailto:fadhil.pratomo1234@gmail.com">Email me <span>↗</span></a>
+              <button class="button button-secondary copy-email" type="button" data-email="fadhil.pratomo1234@gmail.com">Copy email <span>⧉</span></button>
+            </div>
+          </div>
+          <div class="contact-footer"><a href="tel:+6285887716465">+62 858-8771-6465</a><a href="https://www.linkedin.com/in/fadhil-iman-pratomo/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer shell">
+      <span>© <span id="year"></span> Fadhil Iman Pratomo</span>
+      <span>Designed & built with intent.</span>
+      <span>Tangerang Selatan, Indonesia</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
